@@ -1,0 +1,60 @@
+.whyChoose {
+    width: 100%;
+}
+
+.whyChooseFirst {
+    padding: 60px 0 60px 0;
+}
+
+.whyChooseFirst h2 {
+    margin: 0 0 40px 0;
+}
+
+.whyChooseLeft {
+    padding-right: 0;
+    position: relative;
+}
+
+.whyChooseRight {
+    padding-left: 50px;
+}
+
+.whyChooseSecond {
+    padding: 20px 0 60px;
+}
+
+.whyChooseSecondRight {
+    padding-left: 0;
+}
+
+.whyChooseSecondLeft {
+    padding-right: 50px;
+}
+
+@media (max-width: 991px) {
+    .whyChooseFirst {
+        padding: 25px 0 0 0;
+    }
+
+    .whyChooseRight {
+        padding-top: 40px;
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+
+    .whyChooseFirst h2 {
+        margin: 0 0 30px 0;
+    }
+
+    .whyChooseSecondRight {
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        padding-bottom: 30px;
+    }
+
+    .whyChooseSecondLeft {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+    }
+
+    .whyChooseSecond {
+        padding: 20px 0 30px;
+    }
+}

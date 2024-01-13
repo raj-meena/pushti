@@ -1,0 +1,14 @@
+.ourProducts {
+    padding: 60px 0;
+}
+
+@media (max-width: 991px) {
+
+    .ourProducts {
+        padding: 30px 0 0 0;
+    }
+
+    .ourProducts .colLg4 {
+        margin-bottom: 30px;
+    }
+}
