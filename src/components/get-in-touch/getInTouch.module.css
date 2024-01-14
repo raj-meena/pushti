@@ -1,0 +1,43 @@
+.getInTouch {
+    padding: 60px 0;
+}
+
+.getInTouchBox {
+    border-radius: 14px;
+    border: 1px solid var(--color-black);
+    background: var(--color-white);
+    box-shadow: 0px 20px 30px 0px rgba(60, 150, 76, 0.13);
+    padding: 44px;
+}
+
+.getInTouch .formControl {
+    height: 56px;
+    background-color: var(--color-gray);
+    border-color: var(--color-gray);
+    font-family: 'BAHNSCHRIFT1';
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
+.getInTouch textarea.formControl {
+    height: 170px;
+    padding: 20px;
+}
+
+.getInTouchLeft .row>* {
+    margin-top: 31px;
+}
+
+.getInTouchBox .btnSuccess {
+    padding: 13px;
+}
+
+.getInTouch h2 {
+    color: var(--color-green);
+    text-transform: uppercase;
+    margin: 0 0 8px 0;
+}
+
+.getInTouchRight {
+    padding-left: 25px;
+}

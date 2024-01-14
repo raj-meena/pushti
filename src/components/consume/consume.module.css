@@ -1,0 +1,36 @@
+.consume {
+    width: 100%;
+}
+
+.consumeBg {
+    background-color: var(--color-gray);
+    padding: 70px 0;
+}
+
+.consume h3 {
+    font-size: 20px;
+    font-family: 'BAHNSCHRIFT1';
+    margin: 0;
+}
+
+.consume p {
+    font-size: 20px;
+}
+
+@media (max-width: 991px) {
+    .consumeBg {
+        padding: 30px 0;
+    }
+
+    .consumeBg .col-lg-3 {
+        margin-top: 30px;
+    }
+
+    .consume p {
+        margin: 0;
+    }
+
+    .consume h3 {
+        margin: 10px 0 5px 0;
+    }
+}
