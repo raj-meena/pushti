@@ -20,7 +20,6 @@ const GetInTouch = () => {
                     required
                   />
                 </div>
-
                 <div className="col-lg-12" data-aos="fade-up">
                   <input
                     type="email"
